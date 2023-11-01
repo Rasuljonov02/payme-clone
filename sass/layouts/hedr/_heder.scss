@@ -1,0 +1,47 @@
+@import "../../base";
+.wimg {
+	width: 20px;
+}
+
+.hederBalanse {
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 20px;
+	justify-content: space-between;
+	.achap {
+		display: flex;
+		align-items: center;
+		gap: 30px;
+		.pulmenu {
+			display: flex;
+			gap: 15px;
+
+			span {
+				display: flex;
+				flex-direction: column;
+			}
+		}
+	}
+	.aong {
+		display: flex;
+		align-items: center;
+		gap: 50px;
+	}
+}
+.pulKoz {
+	background-color: $och-kok;
+	padding: 10px 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+}
+
+.ishorni {
+	padding: 10px 35px;
+	background-color: $pushti;
+	border-radius: 10px;
+	font-size: 20px;
+	color: white;
+}
