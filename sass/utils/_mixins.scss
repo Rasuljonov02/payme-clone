@@ -1,0 +1,9 @@
+@mixin Manrope($color, $size, $winz) {
+	color: $color;
+	font-family: Manrope;
+	font-size: $size;
+	font-style: normal;
+	font-weight: $winz;
+	line-height: normal;
+	
+}

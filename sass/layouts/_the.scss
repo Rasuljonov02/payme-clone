@@ -1,0 +1,32 @@
+@import "../utils";
+
+.the {
+	flex-wrap: wrap;
+ margin-top: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	.ong {
+		h2 {
+			@include Manrope($qora, 32px, 800);
+			line-height: 110%;
+		}
+		p {
+			@include Manrope($kulrang, 20px, 600);
+		}
+		.btn {
+			@include Manrope($oq, 14px, 700);
+			border-radius: 8px;
+			background: var(--primary, #d760c7);
+
+			display: flex;
+			width: 195px;
+			height: 30px;
+			padding: 12px 16px;
+			justify-content: center;
+			align-items: center;
+			gap: 10px;
+			flex-shrink: 0;
+		}
+	}
+}
