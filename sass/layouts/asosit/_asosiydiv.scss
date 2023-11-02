@@ -1,0 +1,17 @@
+@import "../../base";
+
+.asosiydiv {
+	width: 100%;
+
+	display: flex;
+	.asositchap {
+		width: 20vh;
+
+		background-color: $oq;
+	}
+	.asosiyong {
+		width: 100%;
+
+		background-color: $asosiyong;
+	}
+}

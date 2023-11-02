@@ -9,6 +9,7 @@
 	box-sizing: border-box;
 	padding: 0 20px;
 	justify-content: space-between;
+
 	.achap {
 		display: flex;
 		align-items: center;
@@ -44,4 +45,8 @@
 	border-radius: 10px;
 	font-size: 20px;
 	color: white;
+}
+
+header {
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
