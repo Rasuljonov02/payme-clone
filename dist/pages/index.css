@@ -889,7 +889,7 @@ button {
 }
 
 .wimg {
-  width: 20px;
+  width: 25px;
 }
 
 .hederBalanse {
@@ -910,7 +910,21 @@ button {
 }
 .hederBalanse .achap .pulmenu span {
   display: flex;
+  color: #888894;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
   flex-direction: column;
+}
+.hederBalanse .achap .pulmenu span h3 {
+  color: #3f3f46;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 .hederBalanse .aong {
   display: flex;
@@ -933,10 +947,21 @@ button {
   border-radius: 10px;
   font-size: 20px;
   color: white;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 header {
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  position: relative;
+  box-shadow: rgba(38, 57, 77, 0.466) 0px 20px 30px -10px;
+}
+
+.kab {
+  width: 40px;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -1834,14 +1859,41 @@ button {
   display: flex;
 }
 .asosiydiv .asositchap {
+  box-sizing: border-box;
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
   width: 20vh;
-  background-color: #fff;
+  background-color: #3dd8d0;
 }
 .asosiydiv .asosiyong {
   width: 100%;
-  background-color: #f6f8f9;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: aqua;
 }
 
+form {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+form .form-group {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+form .form-group input {
+  width: 330px;
+  padding: 10px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */

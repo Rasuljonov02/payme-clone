@@ -1,6 +1,8 @@
 @import "../../base";
+@import "../../utils";
+
 .wimg {
-	width: 20px;
+	width: 25px;
 }
 
 .hederBalanse {
@@ -20,7 +22,11 @@
 
 			span {
 				display: flex;
+				@include inter(#888894, 14px, 500);
 				flex-direction: column;
+				h3 {
+					@include inter(#3f3f46, 24px, 600);
+				}
 			}
 		}
 	}
@@ -45,8 +51,13 @@
 	border-radius: 10px;
 	font-size: 20px;
 	color: white;
+	@include inter(#fff, 26px, 600);
 }
 
 header {
-	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	position: relative;
+	box-shadow: rgba(38, 57, 77, 0.466) 0px 20px 30px -10px;
+}
+.kab {
+	width: 40px;
 }
