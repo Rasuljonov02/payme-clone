@@ -885,7 +885,7 @@ button {
 * {
   margin: 0;
   padding: 0;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
 }
 
 .wimg {
@@ -955,9 +955,13 @@ button {
   line-height: normal;
 }
 
+.ishorni:hover {
+  background-color: rgba(167, 96, 215, 0.7176470588);
+}
+
 header {
   position: relative;
-  box-shadow: rgba(38, 57, 77, 0.466) 0px 20px 30px -10px;
+  box-shadow: rgba(38, 57, 77, 0.466) 0px 12px 10px -10px;
 }
 
 .kab {
@@ -1851,12 +1855,28 @@ button {
 * {
   margin: 0;
   padding: 0;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
 }
 
 .asosiydiv {
   width: 100%;
   display: flex;
+}
+.asosiydiv h1 {
+  color: #3f3f46;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.asosiydiv h2 {
+  color: #888894;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .asosiydiv .asositchap {
   box-sizing: border-box;
@@ -1867,13 +1887,13 @@ button {
   justify-content: space-around;
   flex-direction: column;
   width: 20vh;
-  background-color: #3dd8d0;
+  background-color: #fff;
 }
 .asosiydiv .asosiyong {
   width: 100%;
   box-sizing: border-box;
   padding: 20px;
-  background-color: aqua;
+  background-color: #f6f8f9;
 }
 
 form {
@@ -1881,6 +1901,11 @@ form {
   width: 100%;
   display: flex;
   gap: 30px;
+}
+form .as {
+  display: flex;
+  gap: 30px;
+  align-items: center;
   flex-wrap: wrap;
 }
 form .form-group {
@@ -1890,10 +1915,72 @@ form .form-group {
 }
 form .form-group input {
   width: 330px;
-  padding: 10px 0;
+  padding: 15px 0;
   box-sizing: border-box;
   border-radius: 10px;
+  border: 0.5px solid black;
 }
+.btnbubmit {
+  margin-top: 20px;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 12px 70px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  background-color: #50bdbe;
+}
+
+.btnbubmit:hover {
+  padding: 12px 70px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  background-color: #6ba8b8;
+}
+
+.kabb {
+  width: 25px;
+}
+
+.saqlangantolovlar {
+  margin-top: 60px;
+}
+.saqlangantolovlar h1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.uyhizmati {
+  margin-top: 160px;
+}
+.uyhizmati span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.uyhizmati span img {
+  background-color: aqua;
+  padding: 10px 10px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+}
+
+.uysoni {
+  color: #888894;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -2781,7 +2868,7 @@ button {
 * {
   margin: 0;
   padding: 0;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,8 +1,13 @@
 @import "../../base";
-
+@import "../../utils";
 .asosiydiv {
 	width: 100%;
-
+	h1 {
+		@include inter(#3f3f46, 24px, 500);
+	}
+	h2 {
+		@include inter(#888894, 20px, 400);
+	}
 	display: flex;
 	.asositchap {
 		box-sizing: border-box;
@@ -13,15 +18,14 @@
 		justify-content: space-around;
 		flex-direction: column;
 		width: 20vh;
-		background-color: $btn-kok;
-		// background-color: $oq;
+
+		background-color: $oq;
 	}
 	.asosiyong {
 		width: 100%;
 		box-sizing: border-box;
 		padding: 20px;
-		background-color: aqua;
-		// background-color: $asosiyong;
+		background-color: $asosiyong;
 	}
 }
 
@@ -29,20 +33,64 @@ form {
 	margin-top: 30px;
 	width: 100%;
 	display: flex;
+
 	gap: 30px;
-	flex-wrap: wrap;
+
+	.as {
+		display: flex;
+		gap: 30px;
+		align-items: center;
+		flex-wrap: wrap;
+	}
 	.form-group {
 		display: flex;
 		gap: 10px;
 		flex-direction: column;
 		input {
 			width: 330px;
-			padding: 10px 0;
+			padding: 15px 0;
 			box-sizing: border-box;
 			border-radius: 10px;
+			border: 0.5px solid black;
 		}
 	}
 	button {
 	}
 }
-
+.btnbubmit {
+	margin-top: 20px;
+	@include inter($oq, 26px, 600);
+	@include btn($btn-kok, 12px 70px);
+}
+.btnbubmit:hover {
+	@include btn($btn-hover, 12px 70px);
+}
+.kabb {
+	width: 25px;
+}
+.saqlangantolovlar {
+	margin-top: 60px;
+	h1 {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+}
+.uyhizmati {
+	margin-top: 160px;
+	span {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		img {
+			background-color: aqua;
+			padding: 10px 10px;
+			border-radius: 10px;
+			display: grid;
+			place-items: center;
+		}
+	}
+}
+.uysoni {
+	@include inter(#888894, 16px, 400);
+}

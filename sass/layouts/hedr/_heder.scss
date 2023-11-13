@@ -53,10 +53,13 @@
 	color: white;
 	@include inter(#fff, 26px, 600);
 }
+.ishorni:hover {
+background-color: $pushti-hover;
 
+}
 header {
 	position: relative;
-	box-shadow: rgba(38, 57, 77, 0.466) 0px 20px 30px -10px;
+	box-shadow: rgba(38, 57, 77, 0.466) 0px 12px 10px -10px;
 }
 .kab {
 	width: 40px;

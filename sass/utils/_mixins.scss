@@ -5,5 +5,11 @@
 	font-style: normal;
 	font-weight: $winz;
 	line-height: normal;
-
+}
+@mixin btn($color, $wiz) {
+	padding: $wiz;
+	border-radius: 10px;
+	display: grid;
+	place-items: center;
+	background-color: $color;
 }
